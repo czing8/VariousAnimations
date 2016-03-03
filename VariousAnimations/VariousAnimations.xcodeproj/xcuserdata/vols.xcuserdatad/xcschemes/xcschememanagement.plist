@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AddSubButton.xcscheme</key>
+		<key>VariousAnimations.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F167FEEA1C8678B10007DCBE</key>
+		<key>F1E0293E1C86C29800E1D89A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

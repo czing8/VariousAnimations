@@ -8,7 +8,6 @@
 
 #import "AddSubButton.h"
 
-
 #define kMargin 3
 
 @interface AddSubButton ()
@@ -18,7 +17,6 @@
 @property (nonatomic, strong) UILabel * numLabel;
 
 @property (nonatomic, assign) NSUInteger curNum;
-
 
 @end
 
@@ -30,7 +28,6 @@ static void init(AddSubButton *self) {
     self.curNum = 0;
     [self setupViews];
 }
-
 
 - (id)init {
     self = [super init];
@@ -58,7 +55,6 @@ static void init(AddSubButton *self) {
 }
 
 
-
 - (void)setupViews{
     
     [self addSubview:self.addButton];
@@ -67,7 +63,6 @@ static void init(AddSubButton *self) {
     
     [self bringSubviewToFront:_addButton];
 }
-
 
 
 - (void)clickAction:(UIButton *)button{
