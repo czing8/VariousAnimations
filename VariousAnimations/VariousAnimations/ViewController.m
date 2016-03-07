@@ -10,6 +10,8 @@
 #import "AddSubButton.h"
 #import "CartButton.h"
 
+#import "VThumbButton.h"
+
 @interface ViewController ()
 
 @property (nonatomic, strong) CartButton * cartBtn;
@@ -35,6 +37,20 @@
     };
     
     [self.view addSubview:_cartBtn];
+    
+    
+    VThumbButton *zanBtn=[[VThumbButton alloc] initWithFrame:CGRectMake(100, 0, 50, 50) image:[UIImage imageNamed:@"Zan"] unPraiseImage:[UIImage imageNamed:@"UnZan"]];
+    [zanBtn setCenter:self.view.center];
+    [self.view addSubview:zanBtn];
+    
+    [zanBtn setClickHandler:^(VThumbButton *zanButton) {
+        if (zanButton.isPraise) {
+            NSLog(@"Zan!");
+        }else{
+            NSLog(@"Cancel zan!");
+        }
+    }];
+
 
 }
 

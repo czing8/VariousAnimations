@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F109E6141C8D742800FF4BCE /* EffectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6111C8D742800FF4BCE /* EffectImage.png */; };
+		F109E6151C8D742800FF4BCE /* VThumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6131C8D742800FF4BCE /* VThumbButton.m */; };
+		F109E6171C8D74A200FF4BCE /* UnZan.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6161C8D74A200FF4BCE /* UnZan.png */; };
+		F109E6191C8D74A900FF4BCE /* Zan.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6181C8D74A900FF4BCE /* Zan.png */; };
 		F1E029441C86C29800E1D89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029431C86C29800E1D89A /* main.m */; };
 		F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029461C86C29800E1D89A /* AppDelegate.m */; };
 		F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029491C86C29800E1D89A /* ViewController.m */; };
@@ -18,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F109E6111C8D742800FF4BCE /* EffectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectImage.png; sourceTree = "<group>"; };
+		F109E6121C8D742800FF4BCE /* VThumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VThumbButton.h; sourceTree = "<group>"; };
+		F109E6131C8D742800FF4BCE /* VThumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VThumbButton.m; sourceTree = "<group>"; };
+		F109E6161C8D74A200FF4BCE /* UnZan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnZan.png; sourceTree = "<group>"; };
+		F109E6181C8D74A900FF4BCE /* Zan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zan.png; sourceTree = "<group>"; };
 		F1E0293F1C86C29800E1D89A /* VariousAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E029431C86C29800E1D89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1E029451C86C29800E1D89A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +54,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F109E6101C8D742800FF4BCE /* VThumbButton */ = {
+			isa = PBXGroup;
+			children = (
+				F109E6161C8D74A200FF4BCE /* UnZan.png */,
+				F109E6181C8D74A900FF4BCE /* Zan.png */,
+				F109E6111C8D742800FF4BCE /* EffectImage.png */,
+				F109E6121C8D742800FF4BCE /* VThumbButton.h */,
+				F109E6131C8D742800FF4BCE /* VThumbButton.m */,
+			);
+			path = VThumbButton;
+			sourceTree = "<group>";
+		};
 		F1E029361C86C29800E1D89A = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +85,7 @@
 		F1E029411C86C29800E1D89A /* VariousAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				F109E6101C8D742800FF4BCE /* VThumbButton */,
 				F1E0295D1C86C35900E1D89A /* CartButton */,
 				F1E029591C86C2FE00E1D89A /* AddSubButton */,
 				F1E029451C86C29800E1D89A /* AppDelegate.h */,
@@ -162,8 +184,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F109E6171C8D74A200FF4BCE /* UnZan.png in Resources */,
 				F1E029521C86C29800E1D89A /* LaunchScreen.storyboard in Resources */,
 				F1E0294F1C86C29800E1D89A /* Assets.xcassets in Resources */,
+				F109E6191C8D74A900FF4BCE /* Zan.png in Resources */,
+				F109E6141C8D742800FF4BCE /* EffectImage.png in Resources */,
 				F1E0294D1C86C29800E1D89A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +205,7 @@
 				F1E029601C86C35900E1D89A /* CartButton.m in Sources */,
 				F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */,
 				F1E029441C86C29800E1D89A /* main.m in Sources */,
+				F109E6151C8D742800FF4BCE /* VThumbButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +352,7 @@
 				F1E029581C86C29800E1D89A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
