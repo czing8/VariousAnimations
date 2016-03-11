@@ -81,7 +81,7 @@
     _thumbupBtn.imageColorOn = kRGB(253, 128, 35);
     _thumbupBtn.circleColor = kRGB(253, 128, 35);
     _thumbupBtn.clickHandle = ^(){
-        NSLog(@"thumbupBtn!");
+        NSLog(@"%s", __FUNCTION__);
     };
     [self.view addSubview:self.thumbupBtn];
 }
