@@ -33,6 +33,9 @@
 @property (nonatomic, strong) VEffectsButton *thumbupBtn;
 
 
+@property (nonatomic, strong) UIButton *testBtn;
+
+
 @end
 
 @implementation ViewController
@@ -71,6 +74,8 @@
 
     [self setupPulse];
     [self setupThumbBtn];
+    
+    [self.view addSubview:self.testBtn];
 }
 
 
@@ -126,6 +131,57 @@
         _beaconView.contentMode = UIViewContentModeScaleAspectFill;
     }
     return _beaconView;
+}
+
+
+- (UIButton *)testBtn{
+    if (!_testBtn) {
+        _testBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _testBtn.showsTouchWhenHighlighted = YES;
+        _testBtn.frame = CGRectMake(0, 0, 80, 40);
+        _testBtn.center = (CGPoint){self.view.center.x, 200};
+        _testBtn.backgroundColor = [UIColor orangeColor];
+        [_testBtn setTitle:@"测试" forState:UIControlStateNormal];
+        _testBtn.titleLabel.font = [UIFont boldSystemFontOfSize:20];
+        [_testBtn.layer setCornerRadius:5.0];
+        [_testBtn addTarget:self action:@selector(clickTestBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _testBtn;
+}
+
+
+- (void)clickTestBtnAction:(UIButton *)btn
+{
+    UIView * view = nil;
+    
+//    if (btn.tag == kButtonTagThree) {
+//        view=btn.subviews[0];
+//    }else{
+        view = (UIView *)btn;
+//    }
+    
+    [UIView animateWithDuration:0.1 animations:
+     ^(void){
+         
+         view.transform = CGAffineTransformScale(CGAffineTransformIdentity,0.5, 0.5);
+         
+     } completion:^(BOOL finished){//do other thing
+         [UIView animateWithDuration:0.2 animations:
+          ^(void){
+              
+              view.transform = CGAffineTransformScale(CGAffineTransformIdentity,1.2, 1.2);
+              
+          } completion:^(BOOL finished){//do other thing
+              [UIView animateWithDuration:0.1 animations:
+               ^(void){
+                   
+                   view.transform = CGAffineTransformScale(CGAffineTransformIdentity,1,1);
+                   
+               } completion:^(BOOL finished){
+                   //do other thing
+               }];
+          }];
+     }];
 }
 
 
