@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+
+#import "FrostedNavigationController.h"
 #import "AddSubButton.h"
 #import "CartButton.h"
 
@@ -24,17 +26,12 @@
 
 @property (nonatomic, strong) CartButton * cartBtn;
 
-
-
 @property (nonatomic, strong) UIImageView *beaconView;
 @property (nonatomic, strong) VPulseLayer *pulse;
 
-
 @property (nonatomic, strong) VEffectsButton *thumbupBtn;
 
-
 @property (nonatomic, strong) UIButton *testBtn;
-
 
 @end
 
@@ -42,15 +39,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"动画";
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Menu"
+                                                                             style:UIBarButtonItemStylePlain
+                                                                            target:(FrostedNavigationController *)self.navigationController
+                                                                            action:@selector(showMenu)];
     
-    AddSubButton * btn = [[AddSubButton alloc] initWithFrame:CGRectMake(100, 30, 39, 39)];
+    AddSubButton * btn = [[AddSubButton alloc] initWithFrame:CGRectMake(100, 80, 39, 39)];
     btn.goodsNum = ^(NSUInteger num){
         NSLog(@"%lu", (unsigned long)num);
     };
     [self.view addSubview:btn];
 
 
-    
     _cartBtn = [[CartButton alloc] initWithFrame:CGRectMake(50, 100, 70, 70) image:@"btnInterest2"];
     _cartBtn.cartButtonHandle = ^(){
         NSLog(@"fdfse");

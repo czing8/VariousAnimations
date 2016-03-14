@@ -15,6 +15,16 @@
 		F109E66D1C8FB9A300FF4BCE /* VPulseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E66B1C8FB9A300FF4BCE /* VPulseLayer.m */; };
 		F109E6711C8FBB4100FF4BCE /* VEffectsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6701C8FBB4100FF4BCE /* VEffectsButton.m */; };
 		F109E6731C8FBCCC00FF4BCE /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6721C8FBCCC00FF4BCE /* like.png */; };
+		F140315A1C9657300004F996 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F140314F1C9657300004F996 /* RECommonFunctions.m */; };
+		F140315B1C9657300004F996 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031511C9657300004F996 /* REFrostedContainerViewController.m */; };
+		F140315C1C9657300004F996 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031531C9657300004F996 /* REFrostedViewController.m */; };
+		F140315D1C9657300004F996 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031551C9657300004F996 /* UIImage+REFrostedViewController.m */; };
+		F140315E1C9657300004F996 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031571C9657300004F996 /* UIView+REFrostedViewController.m */; };
+		F140315F1C9657300004F996 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031591C9657300004F996 /* UIViewController+REFrostedViewController.m */; };
+		F14031621C9657E40004F996 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031611C9657E40004F996 /* MenuViewController.m */; };
+		F14031651C965AAB0004F996 /* FrostedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031631C965AAB0004F996 /* FrostedNavigationController.m */; };
+		F14031681C96659B0004F996 /* LayerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031671C96659B0004F996 /* LayerAnimationController.m */; };
+		F140316B1C9667510004F996 /* TransAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F140316A1C9667510004F996 /* TransAnimationController.m */; };
 		F1E029441C86C29800E1D89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029431C86C29800E1D89A /* main.m */; };
 		F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029461C86C29800E1D89A /* AppDelegate.m */; };
 		F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029491C86C29800E1D89A /* ViewController.m */; };
@@ -37,6 +47,26 @@
 		F109E66F1C8FBB4100FF4BCE /* VEffectsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEffectsButton.h; sourceTree = "<group>"; };
 		F109E6701C8FBB4100FF4BCE /* VEffectsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEffectsButton.m; sourceTree = "<group>"; };
 		F109E6721C8FBCCC00FF4BCE /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		F140314E1C9657300004F996 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		F140314F1C9657300004F996 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		F14031501C9657300004F996 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		F14031511C9657300004F996 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		F14031521C9657300004F996 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		F14031531C9657300004F996 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		F14031541C9657300004F996 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F14031551C9657300004F996 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F14031561C9657300004F996 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F14031571C9657300004F996 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F14031581C9657300004F996 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		F14031591C9657300004F996 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		F14031601C9657E40004F996 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		F14031611C9657E40004F996 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		F14031631C965AAB0004F996 /* FrostedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedNavigationController.m; sourceTree = "<group>"; };
+		F14031641C965AAB0004F996 /* FrostedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedNavigationController.h; sourceTree = "<group>"; };
+		F14031661C96659B0004F996 /* LayerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationController.h; sourceTree = "<group>"; };
+		F14031671C96659B0004F996 /* LayerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationController.m; sourceTree = "<group>"; };
+		F14031691C9667510004F996 /* TransAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransAnimationController.h; sourceTree = "<group>"; };
+		F140316A1C9667510004F996 /* TransAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransAnimationController.m; sourceTree = "<group>"; };
 		F1E0293F1C86C29800E1D89A /* VariousAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E029431C86C29800E1D89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1E029451C86C29800E1D89A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +126,33 @@
 			path = VEffectsButton;
 			sourceTree = "<group>";
 		};
+		F140314C1C9657300004F996 /* 3rds */ = {
+			isa = PBXGroup;
+			children = (
+				F140314D1C9657300004F996 /* REFrostedViewController */,
+			);
+			path = 3rds;
+			sourceTree = "<group>";
+		};
+		F140314D1C9657300004F996 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F140314E1C9657300004F996 /* RECommonFunctions.h */,
+				F140314F1C9657300004F996 /* RECommonFunctions.m */,
+				F14031501C9657300004F996 /* REFrostedContainerViewController.h */,
+				F14031511C9657300004F996 /* REFrostedContainerViewController.m */,
+				F14031521C9657300004F996 /* REFrostedViewController.h */,
+				F14031531C9657300004F996 /* REFrostedViewController.m */,
+				F14031541C9657300004F996 /* UIImage+REFrostedViewController.h */,
+				F14031551C9657300004F996 /* UIImage+REFrostedViewController.m */,
+				F14031561C9657300004F996 /* UIView+REFrostedViewController.h */,
+				F14031571C9657300004F996 /* UIView+REFrostedViewController.m */,
+				F14031581C9657300004F996 /* UIViewController+REFrostedViewController.h */,
+				F14031591C9657300004F996 /* UIViewController+REFrostedViewController.m */,
+			);
+			path = REFrostedViewController;
+			sourceTree = "<group>";
+		};
 		F1E029361C86C29800E1D89A = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +181,15 @@
 				F1E029461C86C29800E1D89A /* AppDelegate.m */,
 				F1E029481C86C29800E1D89A /* ViewController.h */,
 				F1E029491C86C29800E1D89A /* ViewController.m */,
+				F14031601C9657E40004F996 /* MenuViewController.h */,
+				F14031611C9657E40004F996 /* MenuViewController.m */,
+				F14031661C96659B0004F996 /* LayerAnimationController.h */,
+				F14031671C96659B0004F996 /* LayerAnimationController.m */,
+				F14031691C9667510004F996 /* TransAnimationController.h */,
+				F140316A1C9667510004F996 /* TransAnimationController.m */,
+				F14031631C965AAB0004F996 /* FrostedNavigationController.m */,
+				F14031641C965AAB0004F996 /* FrostedNavigationController.h */,
+				F140314C1C9657300004F996 /* 3rds */,
 				F1E0294B1C86C29800E1D89A /* Main.storyboard */,
 				F1E0294E1C86C29800E1D89A /* Assets.xcassets */,
 				F1E029501C86C29800E1D89A /* LaunchScreen.storyboard */,
@@ -234,13 +300,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F14031681C96659B0004F996 /* LayerAnimationController.m in Sources */,
 				F1E0295C1C86C2FE00E1D89A /* AddSubButton.m in Sources */,
+				F140315A1C9657300004F996 /* RECommonFunctions.m in Sources */,
+				F140316B1C9667510004F996 /* TransAnimationController.m in Sources */,
 				F109E66D1C8FB9A300FF4BCE /* VPulseLayer.m in Sources */,
+				F14031651C965AAB0004F996 /* FrostedNavigationController.m in Sources */,
 				F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */,
+				F14031621C9657E40004F996 /* MenuViewController.m in Sources */,
 				F1E029601C86C35900E1D89A /* CartButton.m in Sources */,
+				F140315E1C9657300004F996 /* UIView+REFrostedViewController.m in Sources */,
+				F140315C1C9657300004F996 /* REFrostedViewController.m in Sources */,
+				F140315B1C9657300004F996 /* REFrostedContainerViewController.m in Sources */,
+				F140315D1C9657300004F996 /* UIImage+REFrostedViewController.m in Sources */,
 				F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */,
 				F109E6711C8FBB4100FF4BCE /* VEffectsButton.m in Sources */,
 				F1E029441C86C29800E1D89A /* main.m in Sources */,
+				F140315F1C9657300004F996 /* UIViewController+REFrostedViewController.m in Sources */,
 				F109E6151C8D742800FF4BCE /* VThumbButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
