@@ -23,8 +23,16 @@
 		F140315F1C9657300004F996 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031591C9657300004F996 /* UIViewController+REFrostedViewController.m */; };
 		F14031621C9657E40004F996 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031611C9657E40004F996 /* MenuViewController.m */; };
 		F14031651C965AAB0004F996 /* FrostedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031631C965AAB0004F996 /* FrostedNavigationController.m */; };
-		F14031681C96659B0004F996 /* LayerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031671C96659B0004F996 /* LayerAnimationController.m */; };
 		F140316B1C9667510004F996 /* TransAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F140316A1C9667510004F996 /* TransAnimationController.m */; };
+		F18E2CC81C97E98300A33748 /* LayerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CC71C97E98300A33748 /* LayerAnimationController.m */; };
+		F18E2CCB1C97E9AD00A33748 /* CAPartBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CCA1C97E9AD00A33748 /* CAPartBViewController.m */; };
+		F18E2CCE1C97EB9600A33748 /* CAPartAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CCD1C97EB9600A33748 /* CAPartAViewController.m */; };
+		F18E2CD01C97EC3F00A33748 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = F18E2CCF1C97EC3F00A33748 /* circle.png */; };
+		F18E2CD21C97EE5200A33748 /* tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = F18E2CD11C97EE5200A33748 /* tracker.png */; };
+		F18E2CD51C97F1D200A33748 /* CAShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CD41C97F1D200A33748 /* CAShapeViewController.m */; };
+		F18E2CD81C97F1F700A33748 /* VShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CD71C97F1F700A33748 /* VShapeLayer.m */; };
+		F18E2CDB1C97F32900A33748 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F18E2CDA1C97F32900A33748 /* test.jpg */; };
+		F18E2CDE1C97F8D900A33748 /* ShapeLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CDC1C97F8D900A33748 /* ShapeLayerController.m */; };
 		F1E029441C86C29800E1D89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029431C86C29800E1D89A /* main.m */; };
 		F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029461C86C29800E1D89A /* AppDelegate.m */; };
 		F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029491C86C29800E1D89A /* ViewController.m */; };
@@ -63,10 +71,24 @@
 		F14031611C9657E40004F996 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
 		F14031631C965AAB0004F996 /* FrostedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedNavigationController.m; sourceTree = "<group>"; };
 		F14031641C965AAB0004F996 /* FrostedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedNavigationController.h; sourceTree = "<group>"; };
-		F14031661C96659B0004F996 /* LayerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationController.h; sourceTree = "<group>"; };
-		F14031671C96659B0004F996 /* LayerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationController.m; sourceTree = "<group>"; };
 		F14031691C9667510004F996 /* TransAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransAnimationController.h; sourceTree = "<group>"; };
 		F140316A1C9667510004F996 /* TransAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransAnimationController.m; sourceTree = "<group>"; };
+		F18E2CC61C97E98300A33748 /* LayerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationController.h; sourceTree = "<group>"; };
+		F18E2CC71C97E98300A33748 /* LayerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationController.m; sourceTree = "<group>"; };
+		F18E2CC91C97E9AD00A33748 /* CAPartBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPartBViewController.h; sourceTree = "<group>"; };
+		F18E2CCA1C97E9AD00A33748 /* CAPartBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPartBViewController.m; sourceTree = "<group>"; };
+		F18E2CCC1C97EB9600A33748 /* CAPartAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPartAViewController.h; sourceTree = "<group>"; };
+		F18E2CCD1C97EB9600A33748 /* CAPartAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPartAViewController.m; sourceTree = "<group>"; };
+		F18E2CCF1C97EC3F00A33748 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
+		F18E2CD11C97EE5200A33748 /* tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracker.png; sourceTree = "<group>"; };
+		F18E2CD31C97F1D200A33748 /* CAShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeViewController.h; sourceTree = "<group>"; };
+		F18E2CD41C97F1D200A33748 /* CAShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeViewController.m; sourceTree = "<group>"; };
+		F18E2CD61C97F1F700A33748 /* VShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VShapeLayer.h; sourceTree = "<group>"; };
+		F18E2CD71C97F1F700A33748 /* VShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VShapeLayer.m; sourceTree = "<group>"; };
+		F18E2CD91C97F28C00A33748 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F18E2CDA1C97F32900A33748 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		F18E2CDC1C97F8D900A33748 /* ShapeLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerController.m; sourceTree = "<group>"; };
+		F18E2CDD1C97F8D900A33748 /* ShapeLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerController.h; sourceTree = "<group>"; };
 		F1E0293F1C86C29800E1D89A /* VariousAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E029431C86C29800E1D89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1E029451C86C29800E1D89A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +175,28 @@
 			path = REFrostedViewController;
 			sourceTree = "<group>";
 		};
+		F18E2CC51C97E98300A33748 /* LayerAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F18E2CCF1C97EC3F00A33748 /* circle.png */,
+				F18E2CD11C97EE5200A33748 /* tracker.png */,
+				F18E2CDA1C97F32900A33748 /* test.jpg */,
+				F18E2CC61C97E98300A33748 /* LayerAnimationController.h */,
+				F18E2CC71C97E98300A33748 /* LayerAnimationController.m */,
+				F18E2CCC1C97EB9600A33748 /* CAPartAViewController.h */,
+				F18E2CCD1C97EB9600A33748 /* CAPartAViewController.m */,
+				F18E2CC91C97E9AD00A33748 /* CAPartBViewController.h */,
+				F18E2CCA1C97E9AD00A33748 /* CAPartBViewController.m */,
+				F18E2CD61C97F1F700A33748 /* VShapeLayer.h */,
+				F18E2CD71C97F1F700A33748 /* VShapeLayer.m */,
+				F18E2CD31C97F1D200A33748 /* CAShapeViewController.h */,
+				F18E2CD41C97F1D200A33748 /* CAShapeViewController.m */,
+				F18E2CDC1C97F8D900A33748 /* ShapeLayerController.m */,
+				F18E2CDD1C97F8D900A33748 /* ShapeLayerController.h */,
+			);
+			path = LayerAnimation;
+			sourceTree = "<group>";
+		};
 		F1E029361C86C29800E1D89A = {
 			isa = PBXGroup;
 			children = (
@@ -183,12 +227,11 @@
 				F14031611C9657E40004F996 /* MenuViewController.m */,
 				F1E029481C86C29800E1D89A /* ViewController.h */,
 				F1E029491C86C29800E1D89A /* ViewController.m */,
-				F14031661C96659B0004F996 /* LayerAnimationController.h */,
-				F14031671C96659B0004F996 /* LayerAnimationController.m */,
+				F18E2CC51C97E98300A33748 /* LayerAnimation */,
 				F14031691C9667510004F996 /* TransAnimationController.h */,
 				F140316A1C9667510004F996 /* TransAnimationController.m */,
-				F14031631C965AAB0004F996 /* FrostedNavigationController.m */,
 				F14031641C965AAB0004F996 /* FrostedNavigationController.h */,
+				F14031631C965AAB0004F996 /* FrostedNavigationController.m */,
 				F140314C1C9657300004F996 /* 3rds */,
 				F1E0294B1C86C29800E1D89A /* Main.storyboard */,
 				F1E0294E1C86C29800E1D89A /* Assets.xcassets */,
@@ -203,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				F1E029431C86C29800E1D89A /* main.m */,
+				F18E2CD91C97F28C00A33748 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -285,11 +329,14 @@
 				F109E6731C8FBCCC00FF4BCE /* like.png in Resources */,
 				F109E6171C8D74A200FF4BCE /* UnZan.png in Resources */,
 				F109E66C1C8FB9A300FF4BCE /* IPhone_5s.png in Resources */,
+				F18E2CD01C97EC3F00A33748 /* circle.png in Resources */,
+				F18E2CD21C97EE5200A33748 /* tracker.png in Resources */,
 				F1E029521C86C29800E1D89A /* LaunchScreen.storyboard in Resources */,
 				F1E0294F1C86C29800E1D89A /* Assets.xcassets in Resources */,
 				F109E6191C8D74A900FF4BCE /* Zan.png in Resources */,
 				F109E6141C8D742800FF4BCE /* EffectImage.png in Resources */,
 				F1E0294D1C86C29800E1D89A /* Main.storyboard in Resources */,
+				F18E2CDB1C97F32900A33748 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,22 +347,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F14031681C96659B0004F996 /* LayerAnimationController.m in Sources */,
 				F1E0295C1C86C2FE00E1D89A /* AddSubButton.m in Sources */,
 				F140315A1C9657300004F996 /* RECommonFunctions.m in Sources */,
 				F140316B1C9667510004F996 /* TransAnimationController.m in Sources */,
 				F109E66D1C8FB9A300FF4BCE /* VPulseLayer.m in Sources */,
+				F18E2CCB1C97E9AD00A33748 /* CAPartBViewController.m in Sources */,
 				F14031651C965AAB0004F996 /* FrostedNavigationController.m in Sources */,
 				F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */,
+				F18E2CC81C97E98300A33748 /* LayerAnimationController.m in Sources */,
 				F14031621C9657E40004F996 /* MenuViewController.m in Sources */,
+				F18E2CD51C97F1D200A33748 /* CAShapeViewController.m in Sources */,
+				F18E2CD81C97F1F700A33748 /* VShapeLayer.m in Sources */,
 				F1E029601C86C35900E1D89A /* CartButton.m in Sources */,
 				F140315E1C9657300004F996 /* UIView+REFrostedViewController.m in Sources */,
+				F18E2CDE1C97F8D900A33748 /* ShapeLayerController.m in Sources */,
 				F140315C1C9657300004F996 /* REFrostedViewController.m in Sources */,
 				F140315B1C9657300004F996 /* REFrostedContainerViewController.m in Sources */,
 				F140315D1C9657300004F996 /* UIImage+REFrostedViewController.m in Sources */,
 				F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */,
 				F109E6711C8FBB4100FF4BCE /* VEffectsButton.m in Sources */,
 				F1E029441C86C29800E1D89A /* main.m in Sources */,
+				F18E2CCE1C97EB9600A33748 /* CAPartAViewController.m in Sources */,
 				F140315F1C9657300004F996 /* UIViewController+REFrostedViewController.m in Sources */,
 				F109E6151C8D742800FF4BCE /* VThumbButton.m in Sources */,
 			);
@@ -427,6 +479,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VariousAnimations/PrefixHeader.pch";
 				INFOPLIST_FILE = VariousAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VariousAnimations;
@@ -438,6 +491,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VariousAnimations/PrefixHeader.pch";
 				INFOPLIST_FILE = VariousAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.VariousAnimations;

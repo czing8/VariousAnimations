@@ -76,13 +76,13 @@
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 34)];
     view.backgroundColor = [UIColor colorWithRed:167/255.0f green:167/255.0f blue:167/255.0f alpha:0.6f];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 8, 0, 0)];
-    label.text = @"Friends Online";
-    label.font = [UIFont systemFontOfSize:15];
-    label.textColor = [UIColor whiteColor];
-    label.backgroundColor = [UIColor clearColor];
-    [label sizeToFit];
-    [view addSubview:label];
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(10, 8, 0, 0)];
+//    label.text = @"Friends Online";
+//    label.font = [UIFont systemFontOfSize:15];
+//    label.textColor = [UIColor whiteColor];
+//    label.backgroundColor = [UIColor clearColor];
+//    [label sizeToFit];
+//    [view addSubview:label];
     
     return view;
 }
