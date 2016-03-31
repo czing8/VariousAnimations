@@ -7,54 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F109E6141C8D742800FF4BCE /* EffectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6111C8D742800FF4BCE /* EffectImage.png */; };
-		F109E6151C8D742800FF4BCE /* VThumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6131C8D742800FF4BCE /* VThumbButton.m */; };
-		F109E6171C8D74A200FF4BCE /* UnZan.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6161C8D74A200FF4BCE /* UnZan.png */; };
-		F109E6191C8D74A900FF4BCE /* Zan.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6181C8D74A900FF4BCE /* Zan.png */; };
-		F109E66C1C8FB9A300FF4BCE /* IPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6691C8FB9A300FF4BCE /* IPhone_5s.png */; };
-		F109E66D1C8FB9A300FF4BCE /* VPulseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E66B1C8FB9A300FF4BCE /* VPulseLayer.m */; };
-		F109E6711C8FBB4100FF4BCE /* VEffectsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F109E6701C8FBB4100FF4BCE /* VEffectsButton.m */; };
-		F109E6731C8FBCCC00FF4BCE /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = F109E6721C8FBCCC00FF4BCE /* like.png */; };
 		F140315A1C9657300004F996 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F140314F1C9657300004F996 /* RECommonFunctions.m */; };
 		F140315B1C9657300004F996 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031511C9657300004F996 /* REFrostedContainerViewController.m */; };
 		F140315C1C9657300004F996 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031531C9657300004F996 /* REFrostedViewController.m */; };
 		F140315D1C9657300004F996 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031551C9657300004F996 /* UIImage+REFrostedViewController.m */; };
 		F140315E1C9657300004F996 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031571C9657300004F996 /* UIView+REFrostedViewController.m */; };
 		F140315F1C9657300004F996 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031591C9657300004F996 /* UIViewController+REFrostedViewController.m */; };
-		F14031621C9657E40004F996 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031611C9657E40004F996 /* MenuViewController.m */; };
-		F14031651C965AAB0004F996 /* FrostedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14031631C965AAB0004F996 /* FrostedNavigationController.m */; };
-		F140316B1C9667510004F996 /* TransAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F140316A1C9667510004F996 /* TransAnimationController.m */; };
+		F14886441CAD5E7C00DA5513 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886261CAD5E7C00DA5513 /* AppDelegate.m */; };
+		F14886451CAD5E7C00DA5513 /* FrostedNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886281CAD5E7C00DA5513 /* FrostedNavigationController.m */; };
+		F14886461CAD5E7C00DA5513 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F148862A1CAD5E7C00DA5513 /* MenuViewController.m */; };
+		F14886471CAD5E7C00DA5513 /* AddSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F148862E1CAD5E7C00DA5513 /* AddSubButton.m */; };
+		F14886481CAD5E7C00DA5513 /* CartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886311CAD5E7C00DA5513 /* CartButton.m */; };
+		F14886491CAD5E7C00DA5513 /* like.png in Resources */ = {isa = PBXBuildFile; fileRef = F14886331CAD5E7C00DA5513 /* like.png */; };
+		F148864A1CAD5E7C00DA5513 /* VEffectsButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886351CAD5E7C00DA5513 /* VEffectsButton.m */; };
+		F148864B1CAD5E7C00DA5513 /* IPhone_5s.png in Resources */ = {isa = PBXBuildFile; fileRef = F14886371CAD5E7C00DA5513 /* IPhone_5s.png */; };
+		F148864C1CAD5E7C00DA5513 /* VPulseLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886391CAD5E7C00DA5513 /* VPulseLayer.m */; };
+		F148864D1CAD5E7C00DA5513 /* EffectImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F148863B1CAD5E7C00DA5513 /* EffectImage.png */; };
+		F148864E1CAD5E7C00DA5513 /* UnZan.png in Resources */ = {isa = PBXBuildFile; fileRef = F148863C1CAD5E7C00DA5513 /* UnZan.png */; };
+		F148864F1CAD5E7C00DA5513 /* VThumbButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F148863E1CAD5E7C00DA5513 /* VThumbButton.m */; };
+		F14886501CAD5E7C00DA5513 /* Zan.png in Resources */ = {isa = PBXBuildFile; fileRef = F148863F1CAD5E7C00DA5513 /* Zan.png */; };
+		F14886511CAD5E7C00DA5513 /* TransAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886421CAD5E7C00DA5513 /* TransAnimationController.m */; };
+		F14886551CAD5FFE00DA5513 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886541CAD5FFE00DA5513 /* MainViewController.m */; };
+		F148865B1CAD666C00DA5513 /* RotateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F148865A1CAD666C00DA5513 /* RotateViewController.storyboard */; };
+		F148865E1CAD66CF00DA5513 /* RotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F148865C1CAD66CF00DA5513 /* RotateViewController.m */; };
+		F14886671CAD684F00DA5513 /* PerspectRotateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F148865F1CAD684F00DA5513 /* PerspectRotateViewController.m */; };
+		F14886681CAD684F00DA5513 /* CubeFlipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886601CAD684F00DA5513 /* CubeFlipViewController.m */; };
+		F14886691CAD684F00DA5513 /* CubeFlipPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886611CAD684F00DA5513 /* CubeFlipPageViewController.m */; };
+		F148866A1CAD684F00DA5513 /* CATransform3DPerspect.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886621CAD684F00DA5513 /* CATransform3DPerspect.m */; };
+		F148866C1CAD688500DA5513 /* PerspectRotateViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F148866B1CAD688500DA5513 /* PerspectRotateViewController.storyboard */; };
+		F148866E1CAD68EE00DA5513 /* CubeFlipViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F148866D1CAD68EE00DA5513 /* CubeFlipViewController.storyboard */; };
+		F14886701CAD68F800DA5513 /* CubeFlipPageViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F148866F1CAD68F800DA5513 /* CubeFlipPageViewController.storyboard */; };
+		F148867B1CAD6DCA00DA5513 /* CAPartAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886721CAD6DCA00DA5513 /* CAPartAViewController.m */; };
+		F148867C1CAD6DCA00DA5513 /* CAPartBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886741CAD6DCA00DA5513 /* CAPartBViewController.m */; };
+		F148867D1CAD6DCA00DA5513 /* CAShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886761CAD6DCA00DA5513 /* CAShapeViewController.m */; };
+		F148867E1CAD6DCA00DA5513 /* ShapeLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886781CAD6DCA00DA5513 /* ShapeLayerController.m */; };
+		F148867F1CAD6DCA00DA5513 /* VShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F148867A1CAD6DCA00DA5513 /* VShapeLayer.m */; };
+		F14886821CAD6F2000DA5513 /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886811CAD6F2000DA5513 /* EmitterViewController.m */; };
+		F148868D1CAD6F4E00DA5513 /* close_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14886841CAD6F4E00DA5513 /* close_blue@2x.png */; };
+		F148868E1CAD6F4E00DA5513 /* raindrop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14886851CAD6F4E00DA5513 /* raindrop@2x.png */; };
+		F148868F1CAD6F4E00DA5513 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F14886861CAD6F4E00DA5513 /* snow@2x.png */; };
+		F14886901CAD6F4E00DA5513 /* VCAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886881CAD6F4E00DA5513 /* VCAEmitterLayerView.m */; };
+		F14886911CAD6F4E00DA5513 /* VRainView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148868A1CAD6F4E00DA5513 /* VRainView.m */; };
+		F14886921CAD6F4E00DA5513 /* VSnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = F148868C1CAD6F4E00DA5513 /* VSnowView.m */; };
+		F14886951CAD70FD00DA5513 /* DrawIconAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F14886941CAD70FD00DA5513 /* DrawIconAnimationController.m */; };
 		F18E2CC81C97E98300A33748 /* LayerAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CC71C97E98300A33748 /* LayerAnimationController.m */; };
-		F18E2CCB1C97E9AD00A33748 /* CAPartBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CCA1C97E9AD00A33748 /* CAPartBViewController.m */; };
-		F18E2CCE1C97EB9600A33748 /* CAPartAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CCD1C97EB9600A33748 /* CAPartAViewController.m */; };
-		F18E2CD01C97EC3F00A33748 /* circle.png in Resources */ = {isa = PBXBuildFile; fileRef = F18E2CCF1C97EC3F00A33748 /* circle.png */; };
-		F18E2CD21C97EE5200A33748 /* tracker.png in Resources */ = {isa = PBXBuildFile; fileRef = F18E2CD11C97EE5200A33748 /* tracker.png */; };
-		F18E2CD51C97F1D200A33748 /* CAShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CD41C97F1D200A33748 /* CAShapeViewController.m */; };
-		F18E2CD81C97F1F700A33748 /* VShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CD71C97F1F700A33748 /* VShapeLayer.m */; };
-		F18E2CDB1C97F32900A33748 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F18E2CDA1C97F32900A33748 /* test.jpg */; };
-		F18E2CDE1C97F8D900A33748 /* ShapeLayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = F18E2CDC1C97F8D900A33748 /* ShapeLayerController.m */; };
 		F1E029441C86C29800E1D89A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029431C86C29800E1D89A /* main.m */; };
-		F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029461C86C29800E1D89A /* AppDelegate.m */; };
-		F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E029491C86C29800E1D89A /* ViewController.m */; };
 		F1E0294D1C86C29800E1D89A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E0294B1C86C29800E1D89A /* Main.storyboard */; };
 		F1E0294F1C86C29800E1D89A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E0294E1C86C29800E1D89A /* Assets.xcassets */; };
 		F1E029521C86C29800E1D89A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E029501C86C29800E1D89A /* LaunchScreen.storyboard */; };
-		F1E0295C1C86C2FE00E1D89A /* AddSubButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E0295B1C86C2FE00E1D89A /* AddSubButton.m */; };
-		F1E029601C86C35900E1D89A /* CartButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E0295F1C86C35900E1D89A /* CartButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F109E6111C8D742800FF4BCE /* EffectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectImage.png; sourceTree = "<group>"; };
-		F109E6121C8D742800FF4BCE /* VThumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VThumbButton.h; sourceTree = "<group>"; };
-		F109E6131C8D742800FF4BCE /* VThumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VThumbButton.m; sourceTree = "<group>"; };
-		F109E6161C8D74A200FF4BCE /* UnZan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnZan.png; sourceTree = "<group>"; };
-		F109E6181C8D74A900FF4BCE /* Zan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zan.png; sourceTree = "<group>"; };
-		F109E6691C8FB9A300FF4BCE /* IPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPhone_5s.png; sourceTree = "<group>"; };
-		F109E66A1C8FB9A300FF4BCE /* VPulseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPulseLayer.h; sourceTree = "<group>"; };
-		F109E66B1C8FB9A300FF4BCE /* VPulseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPulseLayer.m; sourceTree = "<group>"; };
-		F109E66F1C8FBB4100FF4BCE /* VEffectsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEffectsButton.h; sourceTree = "<group>"; };
-		F109E6701C8FBB4100FF4BCE /* VEffectsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEffectsButton.m; sourceTree = "<group>"; };
-		F109E6721C8FBCCC00FF4BCE /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
 		F140314E1C9657300004F996 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
 		F140314F1C9657300004F996 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
 		F14031501C9657300004F996 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
@@ -67,42 +70,77 @@
 		F14031571C9657300004F996 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
 		F14031581C9657300004F996 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
 		F14031591C9657300004F996 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
-		F14031601C9657E40004F996 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
-		F14031611C9657E40004F996 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
-		F14031631C965AAB0004F996 /* FrostedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedNavigationController.m; sourceTree = "<group>"; };
-		F14031641C965AAB0004F996 /* FrostedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedNavigationController.h; sourceTree = "<group>"; };
-		F14031691C9667510004F996 /* TransAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransAnimationController.h; sourceTree = "<group>"; };
-		F140316A1C9667510004F996 /* TransAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransAnimationController.m; sourceTree = "<group>"; };
+		F14886251CAD5E7C00DA5513 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F14886261CAD5E7C00DA5513 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F14886271CAD5E7C00DA5513 /* FrostedNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrostedNavigationController.h; sourceTree = "<group>"; };
+		F14886281CAD5E7C00DA5513 /* FrostedNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrostedNavigationController.m; sourceTree = "<group>"; };
+		F14886291CAD5E7C00DA5513 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		F148862A1CAD5E7C00DA5513 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		F148862D1CAD5E7C00DA5513 /* AddSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSubButton.h; sourceTree = "<group>"; };
+		F148862E1CAD5E7C00DA5513 /* AddSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSubButton.m; sourceTree = "<group>"; };
+		F14886301CAD5E7C00DA5513 /* CartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartButton.h; sourceTree = "<group>"; };
+		F14886311CAD5E7C00DA5513 /* CartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartButton.m; sourceTree = "<group>"; };
+		F14886331CAD5E7C00DA5513 /* like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = like.png; sourceTree = "<group>"; };
+		F14886341CAD5E7C00DA5513 /* VEffectsButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VEffectsButton.h; sourceTree = "<group>"; };
+		F14886351CAD5E7C00DA5513 /* VEffectsButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VEffectsButton.m; sourceTree = "<group>"; };
+		F14886371CAD5E7C00DA5513 /* IPhone_5s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPhone_5s.png; sourceTree = "<group>"; };
+		F14886381CAD5E7C00DA5513 /* VPulseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VPulseLayer.h; sourceTree = "<group>"; };
+		F14886391CAD5E7C00DA5513 /* VPulseLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VPulseLayer.m; sourceTree = "<group>"; };
+		F148863B1CAD5E7C00DA5513 /* EffectImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EffectImage.png; sourceTree = "<group>"; };
+		F148863C1CAD5E7C00DA5513 /* UnZan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnZan.png; sourceTree = "<group>"; };
+		F148863D1CAD5E7C00DA5513 /* VThumbButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VThumbButton.h; sourceTree = "<group>"; };
+		F148863E1CAD5E7C00DA5513 /* VThumbButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VThumbButton.m; sourceTree = "<group>"; };
+		F148863F1CAD5E7C00DA5513 /* Zan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zan.png; sourceTree = "<group>"; };
+		F14886411CAD5E7C00DA5513 /* TransAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransAnimationController.h; sourceTree = "<group>"; };
+		F14886421CAD5E7C00DA5513 /* TransAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransAnimationController.m; sourceTree = "<group>"; };
+		F14886531CAD5FFE00DA5513 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		F14886541CAD5FFE00DA5513 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		F148865A1CAD666C00DA5513 /* RotateViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RotateViewController.storyboard; sourceTree = "<group>"; };
+		F148865C1CAD66CF00DA5513 /* RotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateViewController.m; sourceTree = "<group>"; };
+		F148865D1CAD66CF00DA5513 /* RotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateViewController.h; sourceTree = "<group>"; };
+		F148865F1CAD684F00DA5513 /* PerspectRotateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerspectRotateViewController.m; sourceTree = "<group>"; };
+		F14886601CAD684F00DA5513 /* CubeFlipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeFlipViewController.m; sourceTree = "<group>"; };
+		F14886611CAD684F00DA5513 /* CubeFlipPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeFlipPageViewController.m; sourceTree = "<group>"; };
+		F14886621CAD684F00DA5513 /* CATransform3DPerspect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransform3DPerspect.m; sourceTree = "<group>"; };
+		F14886631CAD684F00DA5513 /* CATransform3DPerspect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransform3DPerspect.h; sourceTree = "<group>"; };
+		F14886641CAD684F00DA5513 /* PerspectRotateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerspectRotateViewController.h; sourceTree = "<group>"; };
+		F14886651CAD684F00DA5513 /* CubeFlipPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeFlipPageViewController.h; sourceTree = "<group>"; };
+		F14886661CAD684F00DA5513 /* CubeFlipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeFlipViewController.h; sourceTree = "<group>"; };
+		F148866B1CAD688500DA5513 /* PerspectRotateViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PerspectRotateViewController.storyboard; sourceTree = "<group>"; };
+		F148866D1CAD68EE00DA5513 /* CubeFlipViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CubeFlipViewController.storyboard; sourceTree = "<group>"; };
+		F148866F1CAD68F800DA5513 /* CubeFlipPageViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CubeFlipPageViewController.storyboard; sourceTree = "<group>"; };
+		F14886711CAD6DCA00DA5513 /* CAPartAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPartAViewController.h; sourceTree = "<group>"; };
+		F14886721CAD6DCA00DA5513 /* CAPartAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPartAViewController.m; sourceTree = "<group>"; };
+		F14886731CAD6DCA00DA5513 /* CAPartBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPartBViewController.h; sourceTree = "<group>"; };
+		F14886741CAD6DCA00DA5513 /* CAPartBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPartBViewController.m; sourceTree = "<group>"; };
+		F14886751CAD6DCA00DA5513 /* CAShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeViewController.h; sourceTree = "<group>"; };
+		F14886761CAD6DCA00DA5513 /* CAShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeViewController.m; sourceTree = "<group>"; };
+		F14886771CAD6DCA00DA5513 /* ShapeLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerController.h; sourceTree = "<group>"; };
+		F14886781CAD6DCA00DA5513 /* ShapeLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerController.m; sourceTree = "<group>"; };
+		F14886791CAD6DCA00DA5513 /* VShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VShapeLayer.h; sourceTree = "<group>"; };
+		F148867A1CAD6DCA00DA5513 /* VShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VShapeLayer.m; sourceTree = "<group>"; };
+		F14886801CAD6F2000DA5513 /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		F14886811CAD6F2000DA5513 /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		F14886841CAD6F4E00DA5513 /* close_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_blue@2x.png"; sourceTree = "<group>"; };
+		F14886851CAD6F4E00DA5513 /* raindrop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raindrop@2x.png"; sourceTree = "<group>"; };
+		F14886861CAD6F4E00DA5513 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		F14886871CAD6F4E00DA5513 /* VCAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCAEmitterLayerView.h; sourceTree = "<group>"; };
+		F14886881CAD6F4E00DA5513 /* VCAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCAEmitterLayerView.m; sourceTree = "<group>"; };
+		F14886891CAD6F4E00DA5513 /* VRainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRainView.h; sourceTree = "<group>"; };
+		F148868A1CAD6F4E00DA5513 /* VRainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRainView.m; sourceTree = "<group>"; };
+		F148868B1CAD6F4E00DA5513 /* VSnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSnowView.h; sourceTree = "<group>"; };
+		F148868C1CAD6F4E00DA5513 /* VSnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VSnowView.m; sourceTree = "<group>"; };
+		F14886931CAD70FD00DA5513 /* DrawIconAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawIconAnimationController.h; sourceTree = "<group>"; };
+		F14886941CAD70FD00DA5513 /* DrawIconAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawIconAnimationController.m; sourceTree = "<group>"; };
 		F18E2CC61C97E98300A33748 /* LayerAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerAnimationController.h; sourceTree = "<group>"; };
 		F18E2CC71C97E98300A33748 /* LayerAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerAnimationController.m; sourceTree = "<group>"; };
-		F18E2CC91C97E9AD00A33748 /* CAPartBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPartBViewController.h; sourceTree = "<group>"; };
-		F18E2CCA1C97E9AD00A33748 /* CAPartBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPartBViewController.m; sourceTree = "<group>"; };
-		F18E2CCC1C97EB9600A33748 /* CAPartAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAPartAViewController.h; sourceTree = "<group>"; };
-		F18E2CCD1C97EB9600A33748 /* CAPartAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAPartAViewController.m; sourceTree = "<group>"; };
-		F18E2CCF1C97EC3F00A33748 /* circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle.png; sourceTree = "<group>"; };
-		F18E2CD11C97EE5200A33748 /* tracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tracker.png; sourceTree = "<group>"; };
-		F18E2CD31C97F1D200A33748 /* CAShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeViewController.h; sourceTree = "<group>"; };
-		F18E2CD41C97F1D200A33748 /* CAShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeViewController.m; sourceTree = "<group>"; };
-		F18E2CD61C97F1F700A33748 /* VShapeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VShapeLayer.h; sourceTree = "<group>"; };
-		F18E2CD71C97F1F700A33748 /* VShapeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VShapeLayer.m; sourceTree = "<group>"; };
 		F18E2CD91C97F28C00A33748 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F18E2CDA1C97F32900A33748 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
-		F18E2CDC1C97F8D900A33748 /* ShapeLayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeLayerController.m; sourceTree = "<group>"; };
-		F18E2CDD1C97F8D900A33748 /* ShapeLayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeLayerController.h; sourceTree = "<group>"; };
 		F1E0293F1C86C29800E1D89A /* VariousAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VariousAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E029431C86C29800E1D89A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F1E029451C86C29800E1D89A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F1E029461C86C29800E1D89A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F1E029481C86C29800E1D89A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F1E029491C86C29800E1D89A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F1E0294C1C86C29800E1D89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1E0294E1C86C29800E1D89A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1E029511C86C29800E1D89A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1E029531C86C29800E1D89A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1E0295A1C86C2FE00E1D89A /* AddSubButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddSubButton.h; sourceTree = "<group>"; };
-		F1E0295B1C86C2FE00E1D89A /* AddSubButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddSubButton.m; sourceTree = "<group>"; };
-		F1E0295E1C86C35900E1D89A /* CartButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartButton.h; sourceTree = "<group>"; };
-		F1E0295F1C86C35900E1D89A /* CartButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,38 +154,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F109E6101C8D742800FF4BCE /* VThumbButton */ = {
-			isa = PBXGroup;
-			children = (
-				F109E6161C8D74A200FF4BCE /* UnZan.png */,
-				F109E6181C8D74A900FF4BCE /* Zan.png */,
-				F109E6111C8D742800FF4BCE /* EffectImage.png */,
-				F109E6121C8D742800FF4BCE /* VThumbButton.h */,
-				F109E6131C8D742800FF4BCE /* VThumbButton.m */,
-			);
-			path = VThumbButton;
-			sourceTree = "<group>";
-		};
-		F109E6681C8FB9A300FF4BCE /* VPulseLayer */ = {
-			isa = PBXGroup;
-			children = (
-				F109E6691C8FB9A300FF4BCE /* IPhone_5s.png */,
-				F109E66A1C8FB9A300FF4BCE /* VPulseLayer.h */,
-				F109E66B1C8FB9A300FF4BCE /* VPulseLayer.m */,
-			);
-			path = VPulseLayer;
-			sourceTree = "<group>";
-		};
-		F109E66E1C8FBB4100FF4BCE /* VEffectsButton */ = {
-			isa = PBXGroup;
-			children = (
-				F109E6721C8FBCCC00FF4BCE /* like.png */,
-				F109E66F1C8FBB4100FF4BCE /* VEffectsButton.h */,
-				F109E6701C8FBB4100FF4BCE /* VEffectsButton.m */,
-			);
-			path = VEffectsButton;
-			sourceTree = "<group>";
-		};
 		F140314C1C9657300004F996 /* 3rds */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,24 +181,157 @@
 			path = REFrostedViewController;
 			sourceTree = "<group>";
 		};
+		F14886241CAD5E7C00DA5513 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				F14886251CAD5E7C00DA5513 /* AppDelegate.h */,
+				F14886261CAD5E7C00DA5513 /* AppDelegate.m */,
+				F14886271CAD5E7C00DA5513 /* FrostedNavigationController.h */,
+				F14886281CAD5E7C00DA5513 /* FrostedNavigationController.m */,
+				F14886291CAD5E7C00DA5513 /* MenuViewController.h */,
+				F148862A1CAD5E7C00DA5513 /* MenuViewController.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		F148862B1CAD5E7C00DA5513 /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				F14886831CAD6F4E00DA5513 /* VCAEmitterLayerView */,
+				F148862C1CAD5E7C00DA5513 /* AddSubButton */,
+				F148862F1CAD5E7C00DA5513 /* CartButton */,
+				F14886321CAD5E7C00DA5513 /* VEffectsButton */,
+				F14886361CAD5E7C00DA5513 /* VPulseLayer */,
+				F148863A1CAD5E7C00DA5513 /* VThumbButton */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		F148862C1CAD5E7C00DA5513 /* AddSubButton */ = {
+			isa = PBXGroup;
+			children = (
+				F148862D1CAD5E7C00DA5513 /* AddSubButton.h */,
+				F148862E1CAD5E7C00DA5513 /* AddSubButton.m */,
+			);
+			path = AddSubButton;
+			sourceTree = "<group>";
+		};
+		F148862F1CAD5E7C00DA5513 /* CartButton */ = {
+			isa = PBXGroup;
+			children = (
+				F14886301CAD5E7C00DA5513 /* CartButton.h */,
+				F14886311CAD5E7C00DA5513 /* CartButton.m */,
+			);
+			path = CartButton;
+			sourceTree = "<group>";
+		};
+		F14886321CAD5E7C00DA5513 /* VEffectsButton */ = {
+			isa = PBXGroup;
+			children = (
+				F14886331CAD5E7C00DA5513 /* like.png */,
+				F14886341CAD5E7C00DA5513 /* VEffectsButton.h */,
+				F14886351CAD5E7C00DA5513 /* VEffectsButton.m */,
+			);
+			path = VEffectsButton;
+			sourceTree = "<group>";
+		};
+		F14886361CAD5E7C00DA5513 /* VPulseLayer */ = {
+			isa = PBXGroup;
+			children = (
+				F14886371CAD5E7C00DA5513 /* IPhone_5s.png */,
+				F14886381CAD5E7C00DA5513 /* VPulseLayer.h */,
+				F14886391CAD5E7C00DA5513 /* VPulseLayer.m */,
+			);
+			path = VPulseLayer;
+			sourceTree = "<group>";
+		};
+		F148863A1CAD5E7C00DA5513 /* VThumbButton */ = {
+			isa = PBXGroup;
+			children = (
+				F148863B1CAD5E7C00DA5513 /* EffectImage.png */,
+				F148863C1CAD5E7C00DA5513 /* UnZan.png */,
+				F148863D1CAD5E7C00DA5513 /* VThumbButton.h */,
+				F148863E1CAD5E7C00DA5513 /* VThumbButton.m */,
+				F148863F1CAD5E7C00DA5513 /* Zan.png */,
+			);
+			path = VThumbButton;
+			sourceTree = "<group>";
+		};
+		F14886401CAD5E7C00DA5513 /* TransAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F14886411CAD5E7C00DA5513 /* TransAnimationController.h */,
+				F14886421CAD5E7C00DA5513 /* TransAnimationController.m */,
+			);
+			path = TransAnimation;
+			sourceTree = "<group>";
+		};
+		F14886521CAD5FFE00DA5513 /* BasicAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				F14886531CAD5FFE00DA5513 /* MainViewController.h */,
+				F14886541CAD5FFE00DA5513 /* MainViewController.m */,
+			);
+			path = BasicAnimations;
+			sourceTree = "<group>";
+		};
+		F14886561CAD660200DA5513 /* BasicLayerAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				F148865C1CAD66CF00DA5513 /* RotateViewController.m */,
+				F148865D1CAD66CF00DA5513 /* RotateViewController.h */,
+				F148865A1CAD666C00DA5513 /* RotateViewController.storyboard */,
+				F14886641CAD684F00DA5513 /* PerspectRotateViewController.h */,
+				F148865F1CAD684F00DA5513 /* PerspectRotateViewController.m */,
+				F148866B1CAD688500DA5513 /* PerspectRotateViewController.storyboard */,
+				F14886661CAD684F00DA5513 /* CubeFlipViewController.h */,
+				F14886601CAD684F00DA5513 /* CubeFlipViewController.m */,
+				F148866D1CAD68EE00DA5513 /* CubeFlipViewController.storyboard */,
+				F14886651CAD684F00DA5513 /* CubeFlipPageViewController.h */,
+				F14886611CAD684F00DA5513 /* CubeFlipPageViewController.m */,
+				F148866F1CAD68F800DA5513 /* CubeFlipPageViewController.storyboard */,
+				F14886621CAD684F00DA5513 /* CATransform3DPerspect.m */,
+				F14886631CAD684F00DA5513 /* CATransform3DPerspect.h */,
+				F14886711CAD6DCA00DA5513 /* CAPartAViewController.h */,
+				F14886721CAD6DCA00DA5513 /* CAPartAViewController.m */,
+				F14886731CAD6DCA00DA5513 /* CAPartBViewController.h */,
+				F14886741CAD6DCA00DA5513 /* CAPartBViewController.m */,
+				F14886751CAD6DCA00DA5513 /* CAShapeViewController.h */,
+				F14886761CAD6DCA00DA5513 /* CAShapeViewController.m */,
+				F14886771CAD6DCA00DA5513 /* ShapeLayerController.h */,
+				F14886781CAD6DCA00DA5513 /* ShapeLayerController.m */,
+				F14886791CAD6DCA00DA5513 /* VShapeLayer.h */,
+				F148867A1CAD6DCA00DA5513 /* VShapeLayer.m */,
+			);
+			path = BasicLayerAnimations;
+			sourceTree = "<group>";
+		};
+		F14886831CAD6F4E00DA5513 /* VCAEmitterLayerView */ = {
+			isa = PBXGroup;
+			children = (
+				F14886841CAD6F4E00DA5513 /* close_blue@2x.png */,
+				F14886851CAD6F4E00DA5513 /* raindrop@2x.png */,
+				F14886861CAD6F4E00DA5513 /* snow@2x.png */,
+				F14886871CAD6F4E00DA5513 /* VCAEmitterLayerView.h */,
+				F14886881CAD6F4E00DA5513 /* VCAEmitterLayerView.m */,
+				F14886891CAD6F4E00DA5513 /* VRainView.h */,
+				F148868A1CAD6F4E00DA5513 /* VRainView.m */,
+				F148868B1CAD6F4E00DA5513 /* VSnowView.h */,
+				F148868C1CAD6F4E00DA5513 /* VSnowView.m */,
+			);
+			path = VCAEmitterLayerView;
+			sourceTree = "<group>";
+		};
 		F18E2CC51C97E98300A33748 /* LayerAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				F18E2CCF1C97EC3F00A33748 /* circle.png */,
-				F18E2CD11C97EE5200A33748 /* tracker.png */,
-				F18E2CDA1C97F32900A33748 /* test.jpg */,
 				F18E2CC61C97E98300A33748 /* LayerAnimationController.h */,
 				F18E2CC71C97E98300A33748 /* LayerAnimationController.m */,
-				F18E2CCC1C97EB9600A33748 /* CAPartAViewController.h */,
-				F18E2CCD1C97EB9600A33748 /* CAPartAViewController.m */,
-				F18E2CC91C97E9AD00A33748 /* CAPartBViewController.h */,
-				F18E2CCA1C97E9AD00A33748 /* CAPartBViewController.m */,
-				F18E2CD61C97F1F700A33748 /* VShapeLayer.h */,
-				F18E2CD71C97F1F700A33748 /* VShapeLayer.m */,
-				F18E2CD31C97F1D200A33748 /* CAShapeViewController.h */,
-				F18E2CD41C97F1D200A33748 /* CAShapeViewController.m */,
-				F18E2CDC1C97F8D900A33748 /* ShapeLayerController.m */,
-				F18E2CDD1C97F8D900A33748 /* ShapeLayerController.h */,
+				F14886801CAD6F2000DA5513 /* EmitterViewController.h */,
+				F14886811CAD6F2000DA5513 /* EmitterViewController.m */,
+				F14886931CAD70FD00DA5513 /* DrawIconAnimationController.h */,
+				F14886941CAD70FD00DA5513 /* DrawIconAnimationController.m */,
+				F14886561CAD660200DA5513 /* BasicLayerAnimations */,
 			);
 			path = LayerAnimation;
 			sourceTree = "<group>";
@@ -216,22 +355,11 @@
 		F1E029411C86C29800E1D89A /* VariousAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				F109E66E1C8FBB4100FF4BCE /* VEffectsButton */,
-				F109E6681C8FB9A300FF4BCE /* VPulseLayer */,
-				F109E6101C8D742800FF4BCE /* VThumbButton */,
-				F1E0295D1C86C35900E1D89A /* CartButton */,
-				F1E029591C86C2FE00E1D89A /* AddSubButton */,
-				F1E029451C86C29800E1D89A /* AppDelegate.h */,
-				F1E029461C86C29800E1D89A /* AppDelegate.m */,
-				F14031601C9657E40004F996 /* MenuViewController.h */,
-				F14031611C9657E40004F996 /* MenuViewController.m */,
-				F1E029481C86C29800E1D89A /* ViewController.h */,
-				F1E029491C86C29800E1D89A /* ViewController.m */,
+				F14886241CAD5E7C00DA5513 /* AppDelegate */,
+				F14886521CAD5FFE00DA5513 /* BasicAnimations */,
 				F18E2CC51C97E98300A33748 /* LayerAnimation */,
-				F14031691C9667510004F996 /* TransAnimationController.h */,
-				F140316A1C9667510004F996 /* TransAnimationController.m */,
-				F14031641C965AAB0004F996 /* FrostedNavigationController.h */,
-				F14031631C965AAB0004F996 /* FrostedNavigationController.m */,
+				F14886401CAD5E7C00DA5513 /* TransAnimation */,
+				F148862B1CAD5E7C00DA5513 /* CustomControls */,
 				F140314C1C9657300004F996 /* 3rds */,
 				F1E0294B1C86C29800E1D89A /* Main.storyboard */,
 				F1E0294E1C86C29800E1D89A /* Assets.xcassets */,
@@ -249,24 +377,6 @@
 				F18E2CD91C97F28C00A33748 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F1E029591C86C2FE00E1D89A /* AddSubButton */ = {
-			isa = PBXGroup;
-			children = (
-				F1E0295A1C86C2FE00E1D89A /* AddSubButton.h */,
-				F1E0295B1C86C2FE00E1D89A /* AddSubButton.m */,
-			);
-			path = AddSubButton;
-			sourceTree = "<group>";
-		};
-		F1E0295D1C86C35900E1D89A /* CartButton */ = {
-			isa = PBXGroup;
-			children = (
-				F1E0295E1C86C35900E1D89A /* CartButton.h */,
-				F1E0295F1C86C35900E1D89A /* CartButton.m */,
-			);
-			path = CartButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,7 +406,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = HaierSmart;
+				ORGANIZATIONNAME = Vols;
 				TargetAttributes = {
 					F1E0293E1C86C29800E1D89A = {
 						CreatedOnToolsVersion = 7.1;
@@ -326,17 +436,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F109E6731C8FBCCC00FF4BCE /* like.png in Resources */,
-				F109E6171C8D74A200FF4BCE /* UnZan.png in Resources */,
-				F109E66C1C8FB9A300FF4BCE /* IPhone_5s.png in Resources */,
-				F18E2CD01C97EC3F00A33748 /* circle.png in Resources */,
-				F18E2CD21C97EE5200A33748 /* tracker.png in Resources */,
+				F14886491CAD5E7C00DA5513 /* like.png in Resources */,
+				F148865B1CAD666C00DA5513 /* RotateViewController.storyboard in Resources */,
+				F148866C1CAD688500DA5513 /* PerspectRotateViewController.storyboard in Resources */,
+				F148868E1CAD6F4E00DA5513 /* raindrop@2x.png in Resources */,
+				F148868D1CAD6F4E00DA5513 /* close_blue@2x.png in Resources */,
+				F148864E1CAD5E7C00DA5513 /* UnZan.png in Resources */,
+				F148868F1CAD6F4E00DA5513 /* snow@2x.png in Resources */,
 				F1E029521C86C29800E1D89A /* LaunchScreen.storyboard in Resources */,
+				F14886501CAD5E7C00DA5513 /* Zan.png in Resources */,
+				F14886701CAD68F800DA5513 /* CubeFlipPageViewController.storyboard in Resources */,
+				F148866E1CAD68EE00DA5513 /* CubeFlipViewController.storyboard in Resources */,
+				F148864D1CAD5E7C00DA5513 /* EffectImage.png in Resources */,
 				F1E0294F1C86C29800E1D89A /* Assets.xcassets in Resources */,
-				F109E6191C8D74A900FF4BCE /* Zan.png in Resources */,
-				F109E6141C8D742800FF4BCE /* EffectImage.png in Resources */,
+				F148864B1CAD5E7C00DA5513 /* IPhone_5s.png in Resources */,
 				F1E0294D1C86C29800E1D89A /* Main.storyboard in Resources */,
-				F18E2CDB1C97F32900A33748 /* test.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,29 +461,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1E0295C1C86C2FE00E1D89A /* AddSubButton.m in Sources */,
+				F14886471CAD5E7C00DA5513 /* AddSubButton.m in Sources */,
+				F14886821CAD6F2000DA5513 /* EmitterViewController.m in Sources */,
+				F14886691CAD684F00DA5513 /* CubeFlipPageViewController.m in Sources */,
+				F148867E1CAD6DCA00DA5513 /* ShapeLayerController.m in Sources */,
+				F14886461CAD5E7C00DA5513 /* MenuViewController.m in Sources */,
 				F140315A1C9657300004F996 /* RECommonFunctions.m in Sources */,
-				F140316B1C9667510004F996 /* TransAnimationController.m in Sources */,
-				F109E66D1C8FB9A300FF4BCE /* VPulseLayer.m in Sources */,
-				F18E2CCB1C97E9AD00A33748 /* CAPartBViewController.m in Sources */,
-				F14031651C965AAB0004F996 /* FrostedNavigationController.m in Sources */,
-				F1E0294A1C86C29800E1D89A /* ViewController.m in Sources */,
+				F14886951CAD70FD00DA5513 /* DrawIconAnimationController.m in Sources */,
+				F148867D1CAD6DCA00DA5513 /* CAShapeViewController.m in Sources */,
+				F14886681CAD684F00DA5513 /* CubeFlipViewController.m in Sources */,
+				F148864F1CAD5E7C00DA5513 /* VThumbButton.m in Sources */,
+				F14886511CAD5E7C00DA5513 /* TransAnimationController.m in Sources */,
+				F148864A1CAD5E7C00DA5513 /* VEffectsButton.m in Sources */,
+				F14886451CAD5E7C00DA5513 /* FrostedNavigationController.m in Sources */,
 				F18E2CC81C97E98300A33748 /* LayerAnimationController.m in Sources */,
-				F14031621C9657E40004F996 /* MenuViewController.m in Sources */,
-				F18E2CD51C97F1D200A33748 /* CAShapeViewController.m in Sources */,
-				F18E2CD81C97F1F700A33748 /* VShapeLayer.m in Sources */,
-				F1E029601C86C35900E1D89A /* CartButton.m in Sources */,
+				F14886551CAD5FFE00DA5513 /* MainViewController.m in Sources */,
 				F140315E1C9657300004F996 /* UIView+REFrostedViewController.m in Sources */,
-				F18E2CDE1C97F8D900A33748 /* ShapeLayerController.m in Sources */,
 				F140315C1C9657300004F996 /* REFrostedViewController.m in Sources */,
+				F148865E1CAD66CF00DA5513 /* RotateViewController.m in Sources */,
+				F14886911CAD6F4E00DA5513 /* VRainView.m in Sources */,
+				F14886671CAD684F00DA5513 /* PerspectRotateViewController.m in Sources */,
 				F140315B1C9657300004F996 /* REFrostedContainerViewController.m in Sources */,
 				F140315D1C9657300004F996 /* UIImage+REFrostedViewController.m in Sources */,
-				F1E029471C86C29800E1D89A /* AppDelegate.m in Sources */,
-				F109E6711C8FBB4100FF4BCE /* VEffectsButton.m in Sources */,
+				F148864C1CAD5E7C00DA5513 /* VPulseLayer.m in Sources */,
 				F1E029441C86C29800E1D89A /* main.m in Sources */,
-				F18E2CCE1C97EB9600A33748 /* CAPartAViewController.m in Sources */,
+				F14886901CAD6F4E00DA5513 /* VCAEmitterLayerView.m in Sources */,
+				F148867C1CAD6DCA00DA5513 /* CAPartBViewController.m in Sources */,
+				F148866A1CAD684F00DA5513 /* CATransform3DPerspect.m in Sources */,
+				F14886481CAD5E7C00DA5513 /* CartButton.m in Sources */,
+				F148867F1CAD6DCA00DA5513 /* VShapeLayer.m in Sources */,
+				F148867B1CAD6DCA00DA5513 /* CAPartAViewController.m in Sources */,
 				F140315F1C9657300004F996 /* UIViewController+REFrostedViewController.m in Sources */,
-				F109E6151C8D742800FF4BCE /* VThumbButton.m in Sources */,
+				F14886921CAD6F4E00DA5513 /* VSnowView.m in Sources */,
+				F14886441CAD5E7C00DA5513 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

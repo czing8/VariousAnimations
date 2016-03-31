@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="e4m-nO-JjN">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Rotate View Controller-->
+        <scene sceneID="kDv-Nn-EVn">
+            <objects>
+                <viewController id="e4m-nO-JjN" customClass="RotateViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZZ4-f9-g7R"/>
+                        <viewControllerLayoutGuide type="bottom" id="f96-En-GVL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="24H-ap-efM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="konan" translatesAutoresizingMaskIntoConstraints="NO" id="9gl-kl-kEN">
+                                <rect key="frame" x="0.0" y="60" width="600" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="1TC-Pm-KuX"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELc-wP-zd8">
+                                <rect key="frame" x="0.0" y="297" width="600" height="52"/>
+                                <subviews>
+                                    <button opaque="NO" tag="1001" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nY-E8-jja">
+                                        <rect key="frame" x="85" y="7" width="72" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="X">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="e4m-nO-JjN" eventType="touchUpInside" id="WUg-lU-J30"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ag-F6-OP3">
+                                        <rect key="frame" x="165" y="7" width="72" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Y">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="e4m-nO-JjN" eventType="touchUpInside" id="Q8Q-Vo-WDU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1003" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ovy-wX-cba">
+                                        <rect key="frame" x="244" y="7" width="72" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Z">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="e4m-nO-JjN" eventType="touchUpInside" id="uxO-12-OfZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1000" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FQX-Ap-Ocy">
+                                        <rect key="frame" x="5" y="7" width="72" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Reset">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="e4m-nO-JjN" eventType="touchUpInside" id="hfY-SQ-Aox"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.74941605170000003" green="0.86386253719999995" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="MPm-QW-Y0t"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9gl-kl-kEN" firstAttribute="top" secondItem="ZZ4-f9-g7R" secondAttribute="bottom" constant="40" id="40r-xl-1Vn"/>
+                            <constraint firstAttribute="trailing" secondItem="ELc-wP-zd8" secondAttribute="trailing" id="6ej-oE-V9n"/>
+                            <constraint firstAttribute="trailing" secondItem="9gl-kl-kEN" secondAttribute="trailing" id="HQn-Ar-Rz9"/>
+                            <constraint firstItem="9gl-kl-kEN" firstAttribute="leading" secondItem="24H-ap-efM" secondAttribute="leading" id="cH4-kp-mRO"/>
+                            <constraint firstItem="ELc-wP-zd8" firstAttribute="top" secondItem="9gl-kl-kEN" secondAttribute="bottom" constant="77" id="fF7-9A-Wlu"/>
+                            <constraint firstItem="ELc-wP-zd8" firstAttribute="leading" secondItem="24H-ap-efM" secondAttribute="leading" id="qNp-PB-Z0h"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="3FY-Zn-LBO"/>
+                    <connections>
+                        <outlet property="imageView" destination="9gl-kl-kEN" id="ah6-Cu-5pc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEF-oo-RcS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-211" y="1141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="konan" width="320" height="160"/>
+    </resources>
+</document>

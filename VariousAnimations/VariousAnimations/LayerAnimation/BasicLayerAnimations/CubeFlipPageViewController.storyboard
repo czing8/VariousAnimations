@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7gV-re-s18">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Cube Flip Page View Controller-->
+        <scene sceneID="sYX-uO-RUF">
+            <objects>
+                <viewController id="7gV-re-s18" customClass="CubeFlipPageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gcP-WJ-sDE"/>
+                        <viewControllerLayoutGuide type="bottom" id="4TC-Zz-lHe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wgg-7z-3nN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbt-rU-Oj1" userLabel="View0">
+                                <rect key="frame" x="0.0" y="42" width="600" height="360"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="konan" translatesAutoresizingMaskIntoConstraints="NO" id="XUM-yj-PIh">
+                                        <rect key="frame" x="0.0" y="80" width="320" height="160"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQO-Df-LR9">
+                                        <rect key="frame" x="124" y="286" width="72" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="--&gt;">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="7gV-re-s18" eventType="touchUpInside" id="Yv7-cQ-mkS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="360" id="XKZ-Yt-H19"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="efg-58-bSd" userLabel="View1">
+                                <rect key="frame" x="0.0" y="42" width="600" height="360"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" image="sakula" translatesAutoresizingMaskIntoConstraints="NO" id="8t1-Wi-EKP">
+                                        <rect key="frame" x="0.0" y="80" width="320" height="160"/>
+                                    </imageView>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cwQ-Fj-jyF">
+                                        <rect key="frame" x="124" y="286" width="72" height="37"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="&lt;--">
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="buttonPressed:" destination="7gV-re-s18" eventType="touchUpInside" id="GVu-CV-wM6"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="360" id="o1P-sb-uce"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="efg-58-bSd" firstAttribute="top" secondItem="gcP-WJ-sDE" secondAttribute="bottom" constant="22" id="C0U-RL-6d9"/>
+                            <constraint firstItem="vbt-rU-Oj1" firstAttribute="top" secondItem="gcP-WJ-sDE" secondAttribute="bottom" constant="22" id="HzV-Fw-UfZ"/>
+                            <constraint firstItem="vbt-rU-Oj1" firstAttribute="leading" secondItem="wgg-7z-3nN" secondAttribute="leading" id="Oxb-py-Igt"/>
+                            <constraint firstAttribute="trailing" secondItem="vbt-rU-Oj1" secondAttribute="trailing" id="Zjx-9e-U1r"/>
+                            <constraint firstAttribute="trailing" secondItem="efg-58-bSd" secondAttribute="trailing" id="apV-ZV-pk7"/>
+                            <constraint firstItem="efg-58-bSd" firstAttribute="leading" secondItem="wgg-7z-3nN" secondAttribute="leading" id="bO4-nb-pet"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6yO-Cn-zLX"/>
+                    <connections>
+                        <outlet property="view0" destination="vbt-rU-Oj1" id="Jpe-Dm-3IQ"/>
+                        <outlet property="view1" destination="efg-58-bSd" id="NCC-p3-HmY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpU-k0-g9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1030" y="1141"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="konan" width="320" height="160"/>
+        <image name="sakula" width="320" height="160"/>
+    </resources>
+</document>
