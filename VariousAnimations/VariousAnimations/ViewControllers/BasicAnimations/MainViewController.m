@@ -9,26 +9,20 @@
 #import "MainViewController.h"
 
 #import "FrostedNavigationController.h"
+
 #import "AddSubButton.h"
 #import "CartButton.h"
-
 #import "VThumbButton.h"
-
 #import "VPulseLayer.h"
-
 #import "VEffectsButton.h"
 
 #define kMaxRadius 160
-#define kRGB(r, g, b)        [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
-
 
 @interface MainViewController ()
 
 @property (nonatomic, strong) CartButton * cartBtn;
-
 @property (nonatomic, strong) UIImageView *beaconView;
 @property (nonatomic, strong) VPulseLayer *pulse;
-
 @property (nonatomic, strong) VEffectsButton *thumbupBtn;
 
 @property (nonatomic, strong) UIButton *testBtn;
@@ -40,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"动画";
-    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"Menu"
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"展开菜单"
                                                                              style:UIBarButtonItemStylePlain
                                                                             target:(FrostedNavigationController *)self.navigationController
                                                                             action:@selector(showMenu)];
@@ -91,7 +85,7 @@
     }];
 }
 
-- (void)setupPulse{
+- (void)setupPulse {
     
     [self.view addSubview:self.beaconView];
     self.pulse = [VPulseLayer layer];
@@ -103,14 +97,15 @@
 #pragma mark - Private
 
 - (void)setupInitialValues {
+    /*
+        self.radiusSlider.value = 0.5;
+        [self radiusChanged:nil];
     
-    //    self.radiusSlider.value = 0.5;
-    //    [self radiusChanged:nil];
-    
-    //    self.rSlider.value = 0;
-    //    self.gSlider.value = 0.487;
-    //    self.bSlider.value = 1.0;
-    //    [self colorChanged:nil];
+        self.rSlider.value = 0;
+        self.gSlider.value = 0.487;
+        self.bSlider.value = 1.0;
+        [self colorChanged:nil];
+     */
 }
 
 
@@ -133,7 +128,7 @@
 }
 
 
-- (UIButton *)testBtn{
+- (UIButton *)testBtn {
     if (!_testBtn) {
         _testBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         _testBtn.showsTouchWhenHighlighted = YES;
@@ -149,16 +144,18 @@
 }
 
 
-- (void)clickTestBtnAction:(UIButton *)btn
-{
+- (void)clickTestBtnAction:(UIButton *)btn {
     UIView * view = nil;
-    
-//    if (btn.tag == kButtonTagThree) {
-//        view=btn.subviews[0];
-//    }else{
+    /*
+    if (btn.tag == kButtonTagThree) {
+        view=btn.subviews[0];
+    }else{
         view = (UIView *)btn;
-//    }
+    }
+    */
     
+    view = (UIView *)btn;
+
     [UIView animateWithDuration:0.1 animations:
      ^(void){
          

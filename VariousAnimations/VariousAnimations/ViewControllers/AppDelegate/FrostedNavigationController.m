@@ -19,30 +19,27 @@
 
 @implementation FrostedNavigationController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+
     [self.view addGestureRecognizer:[[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureRecognized:)]];
 }
 
-- (void)showMenu
-{
+- (void)showMenu {
+
     // Dismiss keyboard (optional)
-    //
     [self.view endEditing:YES];
     [self.frostedViewController.view endEditing:YES];
     
         
     // Present the view controller
-    //
     [self.frostedViewController presentMenuViewController];
 }
 
 #pragma mark -
 #pragma mark Gesture recognizer
 
-- (void)panGestureRecognized:(UIPanGestureRecognizer *)sender
-{
+- (void)panGestureRecognized:(UIPanGestureRecognizer *)sender {
     
     if (self.childViewControllers.count == 1) {
         

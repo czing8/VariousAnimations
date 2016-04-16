@@ -14,12 +14,11 @@
 @property (nonatomic, strong) UIView * contentView;
 @property (nonatomic, strong) UIButton * btn;
 
-
 @end
 
 @implementation DrawIconAnimationController
 
-- (void)viewWillAppear:(BOOL)animated{
+- (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 
     if (_contentView != nil) {
@@ -40,7 +39,7 @@
 }
 
 
-- (void)setupIconLayer{
+- (void)setupIconLayer {
     _count = 0;
     [self.view addSubview:self.btn];
     self.btn.backgroundColor = [UIColor orangeColor];
@@ -142,7 +141,7 @@
 }
 
 
-- (void)clickAction:(UIButton *)btn{
+- (void)clickAction:(UIButton *)btn {
     
     if (_contentView != nil) {
         [_contentView removeFromSuperview];
@@ -162,7 +161,7 @@
     }
 }
 
-- (UIView *)contentView{
+- (UIView *)contentView {
     if (!_contentView) {
         _contentView = [[UIView alloc] initWithFrame:CGRectMake(kSCREEN_SIZE.width/2, 20, 100, 100)];
         _contentView.center = CGPointMake(self.view.center.x, 260);
@@ -170,7 +169,7 @@
     return _contentView;
 }
 
-- (UIButton *)btn{
+- (UIButton *)btn {
     if (!_btn) {
         _btn = [UIButton buttonWithType:UIButtonTypeCustom];
         _btn.frame = CGRectMake(20, 80, 80, 40);
@@ -190,14 +189,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
